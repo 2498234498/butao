@@ -96,7 +96,7 @@ window.onload = function(){
 	//ajax
 	$.ajax({
 		type:"get",
-		url:"../json.json",
+		url:"json.json",
 		async:true,
 		success:function(json){
 			//banner
@@ -179,7 +179,7 @@ window.onload = function(){
 								<img src="${json.shoe[i].src}" alt="" />
 							</dt>
 							<dd class="d1">
-								<a href="javascript:;">${json.shoe[i].describe}</a>
+								<a href="http://127.0.0.1/butao/Details/details.html">${json.shoe[i].describe}</a>
 							</dd>
 							<dd class="d2">
 								<div class="price">${json.shoe[i].price}</div>

@@ -112,4 +112,17 @@ window.onload = function(){
 			return false;
 		}
 	}
+	//link
+	$(".link_inner a").hover(function(){
+		$(this).css("color","black");
+	},function(){
+		$(this).css("color","#999");
+	})
+	
+	//footer
+	$(".footer_t a").hover(function(){
+		$(this).css("color","#e8390d");
+	},function(){
+		$(this).css("color","#fff");
+	})
 }

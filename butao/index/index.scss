@@ -1392,11 +1392,13 @@ $small:12px;
         }
     }
 }
+
 /*link*/
 #link{
+    margin-top: 100px;
     min-height: 174px;
     background: #f7f7f7;
-    margin-top:25px;
+    
     border-top:1px solid #e5e5e5;
     .link_inner{
         @extend .public;

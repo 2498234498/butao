@@ -1160,9 +1160,9 @@
 
 /*link*/
 #link {
+  margin-top: 100px;
   min-height: 174px;
   background: #f7f7f7;
-  margin-top: 25px;
   border-top: 1px solid #e5e5e5;
 }
 #link .link_inner .link1, #link .link_inner .link2, #link .link_inner .link3, #link .link_inner .link4, #link .link_inner .link5 {
